@@ -1,0 +1,2 @@
+# NOESIS Prediction Market
+# Core framework — no external dependencies
