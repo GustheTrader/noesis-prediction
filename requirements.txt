@@ -1,2 +1,10 @@
-# NOESIS Prediction Market
-# Core framework — no external dependencies
+# NOESIS Prediction Market + Sovereign OS
+
+# Core
+httpx>=0.25.0
+
+# Encryption
+cryptography>=41.0.0
+
+# Optional — for local LLM
+# ollama (installed separately)
