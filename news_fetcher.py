@@ -9,7 +9,7 @@ Get key: https://currentsapi.services/
 Usage:
     from news_fetcher import NewsFetcher
     fetcher = NewsFetcher(api_key="YOUR_KEY")
-    articles = fetcher.get_latest(category="technology")
+    articles = fetcher.get_latest(limit=20)
 """
 
 import os
@@ -40,8 +40,8 @@ class NewsFetcher:
     """
     Fetch real-time news for prediction markets.
     
-    Uses Currents API (600 requests/day free).
-    ~10 min latency, 14K+ sources.
+    Uses Currents API (1000 requests/day free).
+    ~10 min latency, 120K+ sources.
     """
 
     def __init__(self, api_key: Optional[str] = None):
@@ -56,20 +56,28 @@ class NewsFetcher:
 
     def get_latest(
         self,
-        category: str = "general",
+        category: Optional[str] = None,
         language: str = "en",
         limit: int = 20,
     ) -> list[NewsArticle]:
-        """Get latest news by category."""
+        """Get latest news, optionally filtered by category.
+        
+        Note: API returns all news, filtering happens client-side.
+        """
         try:
-            response = self.client.latest_news(
-                category=category,
-                language=language,
-                limit=limit,
-            )
+            response = self.client.latest_news()
             
             articles = []
             for item in response.get("news", []):
+                # Filter by language if specified
+                if language and item.get("language") != language:
+                    continue
+                
+                # Filter by category if specified
+                item_cats = item.get("category", [])
+                if category and category not in item_cats:
+                    continue
+                
                 articles.append(NewsArticle(
                     id=item.get("id", ""),
                     title=item.get("title", ""),
@@ -77,9 +85,12 @@ class NewsFetcher:
                     url=item.get("url", ""),
                     image=item.get("image", ""),
                     published=self._parse_date(item.get("published", "")),
-                    category=item.get("category", [category])[0] if item.get("category") else category,
+                    category=item_cats[0] if item_cats else "general",
                     source=item.get("source", "unknown"),
                 ))
+                
+                if len(articles) >= limit:
+                    break
             
             return articles
         
@@ -95,24 +106,28 @@ class NewsFetcher:
     ) -> list[NewsArticle]:
         """Search news by keyword."""
         try:
-            response = self.client.search(
-                q=query,
-                language=language,
-                limit=limit,
-            )
+            response = self.client.search()
             
+            # Filter results client-side for query
             articles = []
             for item in response.get("news", []):
-                articles.append(NewsArticle(
-                    id=item.get("id", ""),
-                    title=item.get("title", ""),
-                    description=item.get("description", ""),
-                    url=item.get("url", ""),
-                    image=item.get("image", ""),
-                    published=self._parse_date(item.get("published", "")),
-                    category=item.get("category", ["general"])[0],
-                    source=item.get("source", "unknown"),
-                ))
+                title = item.get("title", "").lower()
+                desc = item.get("description", "").lower()
+                
+                if query.lower() in title or query.lower() in desc:
+                    articles.append(NewsArticle(
+                        id=item.get("id", ""),
+                        title=item.get("title", ""),
+                        description=item.get("description", ""),
+                        url=item.get("url", ""),
+                        image=item.get("image", ""),
+                        published=self._parse_date(item.get("published", "")),
+                        category=item.get("category", ["general"])[0],
+                        source=item.get("source", "unknown"),
+                    ))
+                    
+                    if len(articles) >= limit:
+                        break
             
             return articles
         
@@ -129,18 +144,47 @@ class NewsFetcher:
         
         Extracts keywords from question and searches.
         """
-        # Extract keywords from question
+        # Get all latest and filter client-side
         keywords = self._extract_keywords(market_question)
-        query = " OR ".join(keywords[:3])  # Max 3 keywords
         
-        return self.search(query=query, limit=limit)
+        try:
+            response = self.client.latest_news()
+            
+            articles = []
+            for item in response.get("news", []):
+                title = item.get("title", "").lower()
+                desc = item.get("description", "").lower()
+                
+                # Check if any keyword matches
+                for kw in keywords:
+                    if kw in title or kw in desc:
+                        articles.append(NewsArticle(
+                            id=item.get("id", ""),
+                            title=item.get("title", ""),
+                            description=item.get("description", ""),
+                            url=item.get("url", ""),
+                            image=item.get("image", ""),
+                            published=self._parse_date(item.get("published", "")),
+                            category=item.get("category", ["general"])[0],
+                            source=item.get("source", "unknown"),
+                        ))
+                        break  # Only add once
+                
+                if len(articles) >= limit:
+                    break
+            
+            return articles
+        
+        except Exception as e:
+            print(f"Error getting market news: {e}")
+            return []
 
     def _extract_keywords(self, text: str) -> list[str]:
         """Simple keyword extraction."""
         # Remove common words
-        stopwords = {"will", "be", "by", "the", "of", "in", "at", "on", "for", "to", "a", "an", "is", "are", "can", "could", "would", "should", "what", "when", "where", "why", "how"}
+        stopwords = {"will", "be", "by", "the", "of", "in", "at", "on", "for", "to", "a", "an", "is", "are", "can", "could", "would", "should", "what", "when", "where", "why", "how", "this", "that", "with", "from"}
         
-        words = text.lower().replace("?", "").replace(".", "").split()
+        words = text.lower().replace("?", "").replace(".", "").replace(",", "").split()
         keywords = [w for w in words if w not in stopwords and len(w) > 2]
         
         return keywords[:5]
@@ -168,63 +212,31 @@ def demo():
     if not api_key:
         print("\n⚠️  CURRENTS_API_KEY not set")
         print("   Get free key: https://currentsapi.services/")
-        print("\nDemo with mock data:\n")
-        
-        # Demo with mock data
-        mock_articles = [
-            NewsArticle(
-                id="1",
-                title="AI Agents Achieve Human-Level Reasoning in Tests",
-                description="New benchmark shows AI agents matching human performance on complex reasoning tasks.",
-                url="https://example.com/ai-reasoning",
-                image="",
-                published=datetime.now(timezone.utc),
-                category="technology",
-                source="TechNews",
-            ),
-            NewsArticle(
-                id="2",
-                title="Bitcoin Approaches $100K Milestone",
-                description="Cryptocurrency markets rally as Bitcoin nears all-time high.",
-                url="https://example.com/btc",
-                image="",
-                published=datetime.now(timezone.utc),
-                category="business",
-                source="CryptoDaily",
-            ),
-        ]
-        
-        for article in mock_articles:
-            print(f"📰 {article.title}")
-            print(f"   {article.description[:80]}...")
-            print(f"   Category: {article.category} | Source: {article.source}")
-            print()
-        
         return
     
     # Real fetch
     fetcher = NewsFetcher(api_key)
     
-    # Get tech news
-    print("\n🔄 Fetching latest technology news...")
-    articles = fetcher.get_latest(category="technology", limit=5)
+    # Get latest news
+    print("\n🔄 Fetching latest news...")
+    articles = fetcher.get_latest(limit=10)
     
     print(f"\n📊 Got {len(articles)} articles:\n")
     for article in articles:
-        print(f"📰 {article.title}")
-        print(f"   {article.description[:80]}...")
+        print(f"📰 {article.title[:70]}")
+        print(f"   {article.description[:80] if article.description else 'No description'}...")
         print(f"   Category: {article.category} | Source: {article.source}")
         print()
     
     # Search for market-related news
-    print("\n🔍 Searching for market: 'Will AI agents achieve human-level reasoning'")
-    market_news = fetcher.get_for_market("Will AI agents achieve human-level reasoning by 2028?", limit=3)
+    print("\n🔍 Searching for market: 'AI agents achieve human-level reasoning'")
+    market_news = fetcher.get_for_market("Will AI agents achieve human-level reasoning by 2028?", limit=5)
     
-    print(f"\n📊 Found {len(market_news)} relevant articles:\n")
+    print(f"\n📊 Found {len(market_news)} relevant articles:")
     for article in market_news:
-        print(f"  • {article.title}")
+        print(f"  • {article.title[:60]}")
     
-    print("=" * 60)
+    print("\n" + "=" * 60)
 
 
 if __name__ == "__main__":
