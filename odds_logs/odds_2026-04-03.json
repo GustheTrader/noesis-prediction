@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-04-03T02:21:53.056762+00:00",
+  "games": [
+    {
+      "game_id": "mlb_001",
+      "book": "DraftKings",
+      "home": "Giants",
+      "away": "Dodgers",
+      "ml_home": 125,
+      "ml_away": -145,
+      "total": 7.5,
+      "over": -115,
+      "under": -105,
+      "f5_total": 3.5
+    },
+    {
+      "game_id": "mlb_002",
+      "book": "DraftKings",
+      "home": "Phillies",
+      "away": "Mets",
+      "ml_home": -160,
+      "ml_away": 140,
+      "total": 8.0,
+      "over": -110,
+      "under": -110,
+      "f5_total": 3.5
+    },
+    {
+      "game_id": "mlb_003",
+      "book": "DraftKings",
+      "home": "Marlins",
+      "away": "Braves",
+      "ml_home": 160,
+      "ml_away": -180,
+      "total": 8.5,
+      "over": -110,
+      "under": -110,
+      "f5_total": 4.0
+    },
+    {
+      "game_id": "mlb_004",
+      "book": "DraftKings",
+      "home": "Guardians",
+      "away": "Yankees",
+      "ml_home": 100,
+      "ml_away": -120,
+      "total": 8.0,
+      "over": -110,
+      "under": -110,
+      "f5_total": 3.5
+    }
+  ],
+  "props": [
+    {
+      "player": "Shohei Ohtani",
+      "book": "DraftKings",
+      "prop": "home_runs",
+      "line": 40.5,
+      "over": -125,
+      "under": -105
+    },
+    {
+      "player": "Juan Soto",
+      "book": "DraftKings",
+      "prop": "walks",
+      "line": 95.5,
+      "over": -130,
+      "under": 100
+    },
+    {
+      "player": "Aaron Judge",
+      "book": "DraftKings",
+      "prop": "home_runs",
+      "line": 40.5,
+      "over": 100,
+      "under": -130
+    }
+  ]
+}
