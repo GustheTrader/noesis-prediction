@@ -1,0 +1,9 @@
+
+# NOESIS Daily Scanner - Runs at MIDNIGHT UTC
+# To add to crontab: crontab -e
+# Then add this line:
+
+0 0 * * * /usr/bin/python3 /root/.openclaw/workspace/noesis-prediction/cron_scanner.py >> /root/.openclaw/workspace/noesis-prediction/cron_logs/scanner.log 2>&1
+
+# Or use python directly:
+# 0 0 * * * cd /root/.openclaw/workspace/noesis-prediction && python3 cron_scanner.py >> cron_logs/scanner.log 2>&1

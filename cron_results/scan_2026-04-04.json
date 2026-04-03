@@ -1,0 +1,628 @@
+{
+  "scan_date": "2026-04-03T02:11:27.773696+00:00",
+  "games_date": "2026-04-04",
+  "games": [
+    {
+      "id": "mlb_001",
+      "away": "Dodgers",
+      "home": "Giants",
+      "away_pitcher": "Yoshinobu Yamamoto",
+      "home_pitcher": "Logan Webb",
+      "start_time": "2026-04-04T21:05:27.773114+00:00",
+      "total": 7.5
+    },
+    {
+      "id": "mlb_002",
+      "away": "Yankees",
+      "home": "Red Sox",
+      "away_pitcher": "Carlos Rodon",
+      "home_pitcher": "Kutter Crawford",
+      "start_time": "2026-04-04T18:05:27.773114+00:00",
+      "total": 9.0
+    },
+    {
+      "id": "mlb_003",
+      "away": "Mets",
+      "home": "Phillies",
+      "away_pitcher": "Sean Manaea",
+      "home_pitcher": "Zack Wheeler",
+      "start_time": "2026-04-04T19:05:27.773114+00:00",
+      "total": 8.0
+    },
+    {
+      "id": "mlb_004",
+      "away": "Astros",
+      "home": "Rangers",
+      "away_pitcher": "Justin Verlander",
+      "home_pitcher": "Jacob deGrom",
+      "start_time": "2026-04-04T20:05:27.773114+00:00",
+      "total": 7.0
+    },
+    {
+      "id": "mlb_005",
+      "away": "Braves",
+      "home": "Marlins",
+      "away_pitcher": "Chris Sale",
+      "home_pitcher": "Jesus Luzardo",
+      "start_time": "2026-04-04T18:10:27.773114+00:00",
+      "total": 8.5
+    }
+  ],
+  "lines": {
+    "mlb_001": {
+      "total": 7.5,
+      "ml_away": -145,
+      "ml_home": 125,
+      "f5_total": 3.1,
+      "f5_away": -165,
+      "f5_home": 145,
+      "strikeout_lines": {
+        "over": 5.5,
+        "under": 5.5
+      },
+      "ip_line": 5.5
+    },
+    "mlb_002": {
+      "total": 9.0,
+      "ml_away": -130,
+      "ml_home": 110,
+      "f5_total": 3.8,
+      "f5_away": -150,
+      "f5_home": 130,
+      "strikeout_lines": {
+        "over": 5.5,
+        "under": 5.5
+      },
+      "ip_line": 5.5
+    },
+    "mlb_003": {
+      "total": 8.0,
+      "ml_away": 140,
+      "ml_home": -160,
+      "f5_total": 3.4,
+      "f5_away": 120,
+      "f5_home": -140,
+      "strikeout_lines": {
+        "over": 5.5,
+        "under": 5.5
+      },
+      "ip_line": 5.5
+    },
+    "mlb_004": {
+      "total": 7.0,
+      "ml_away": -110,
+      "ml_home": -110,
+      "f5_total": 2.9,
+      "f5_away": -130,
+      "f5_home": -90,
+      "strikeout_lines": {
+        "over": 5.5,
+        "under": 5.5
+      },
+      "ip_line": 5.5
+    },
+    "mlb_005": {
+      "total": 8.5,
+      "ml_away": -180,
+      "ml_home": 160,
+      "f5_total": 3.6,
+      "f5_away": -200,
+      "f5_home": 180,
+      "strikeout_lines": {
+        "over": 5.5,
+        "under": 5.5
+      },
+      "ip_line": 5.5
+    }
+  },
+  "digger_units": [
+    {
+      "unit_id": "digger_mlb_001_20260403",
+      "legs": [
+        {
+          "edge_id": "edge_001",
+          "edge_name": "F5 Under - Ace vs Weak",
+          "game": "Dodgers @ Giants",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_003",
+          "edge_name": "NRFI - No Run 1st Inning",
+          "game": "Dodgers @ Giants",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_004",
+          "edge_name": "K Over - High K vs Weak",
+          "game": "Dodgers @ Giants",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_005",
+          "edge_name": "F5 Dog ML - Value Dog",
+          "game": "Dodgers @ Giants",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_006",
+          "edge_name": "F5 +1.5 - Fade Favorite",
+          "game": "Dodgers @ Giants",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_007",
+          "edge_name": "K Under - Contact vs K",
+          "game": "Dodgers @ Giants",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_008",
+          "edge_name": "F5 -1.5 - Ace Covers",
+          "game": "Dodgers @ Giants",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_009",
+          "edge_name": "Ohtani 40+ HR",
+          "game": "Dodgers @ Giants",
+          "confidence": 85
+        },
+        {
+          "edge_id": "edge_010",
+          "edge_name": "Soto 95+ Walks",
+          "game": "Dodgers @ Giants",
+          "confidence": 80
+        },
+        {
+          "edge_id": "edge_011",
+          "edge_name": "K Over - High K vs High K Team",
+          "game": "Dodgers @ Giants",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_012",
+          "edge_name": "K Over - Tight Zone Umpire",
+          "game": "Dodgers @ Giants",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_013",
+          "edge_name": "K Under - Contact Pitcher vs Contact Team",
+          "game": "Dodgers @ Giants",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_014",
+          "edge_name": "K Under - Short Leash Starter",
+          "game": "Dodgers @ Giants",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_015",
+          "edge_name": "IP Over - Stamina Ace",
+          "game": "Dodgers @ Giants",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_016",
+          "edge_name": "IP Over - Lineup Extends Outing",
+          "game": "Dodgers @ Giants",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_017",
+          "edge_name": "K Over - Early Line Value",
+          "game": "Dodgers @ Giants",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_018",
+          "edge_name": "K Under - Bullpen Injuries",
+          "game": "Dodgers @ Giants",
+          "confidence": 60
+        }
+      ],
+      "odds": 0.2,
+      "units": 1.38,
+      "edge_score": 68.8
+    },
+    {
+      "unit_id": "digger_mlb_002_20260403",
+      "legs": [
+        {
+          "edge_id": "edge_004",
+          "edge_name": "K Over - High K vs Weak",
+          "game": "Yankees @ Red Sox",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_005",
+          "edge_name": "F5 Dog ML - Value Dog",
+          "game": "Yankees @ Red Sox",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_006",
+          "edge_name": "F5 +1.5 - Fade Favorite",
+          "game": "Yankees @ Red Sox",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_007",
+          "edge_name": "K Under - Contact vs K",
+          "game": "Yankees @ Red Sox",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_008",
+          "edge_name": "F5 -1.5 - Ace Covers",
+          "game": "Yankees @ Red Sox",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_009",
+          "edge_name": "Ohtani 40+ HR",
+          "game": "Yankees @ Red Sox",
+          "confidence": 85
+        },
+        {
+          "edge_id": "edge_010",
+          "edge_name": "Soto 95+ Walks",
+          "game": "Yankees @ Red Sox",
+          "confidence": 80
+        },
+        {
+          "edge_id": "edge_011",
+          "edge_name": "K Over - High K vs High K Team",
+          "game": "Yankees @ Red Sox",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_012",
+          "edge_name": "K Over - Tight Zone Umpire",
+          "game": "Yankees @ Red Sox",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_013",
+          "edge_name": "K Under - Contact Pitcher vs Contact Team",
+          "game": "Yankees @ Red Sox",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_014",
+          "edge_name": "K Under - Short Leash Starter",
+          "game": "Yankees @ Red Sox",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_015",
+          "edge_name": "IP Over - Stamina Ace",
+          "game": "Yankees @ Red Sox",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_016",
+          "edge_name": "IP Over - Lineup Extends Outing",
+          "game": "Yankees @ Red Sox",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_017",
+          "edge_name": "K Over - Early Line Value",
+          "game": "Yankees @ Red Sox",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_018",
+          "edge_name": "K Under - Bullpen Injuries",
+          "game": "Yankees @ Red Sox",
+          "confidence": 60
+        }
+      ],
+      "odds": 0.3,
+      "units": 1.37,
+      "edge_score": 68.7
+    },
+    {
+      "unit_id": "digger_mlb_003_20260403",
+      "legs": [
+        {
+          "edge_id": "edge_004",
+          "edge_name": "K Over - High K vs Weak",
+          "game": "Mets @ Phillies",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_005",
+          "edge_name": "F5 Dog ML - Value Dog",
+          "game": "Mets @ Phillies",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_006",
+          "edge_name": "F5 +1.5 - Fade Favorite",
+          "game": "Mets @ Phillies",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_007",
+          "edge_name": "K Under - Contact vs K",
+          "game": "Mets @ Phillies",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_008",
+          "edge_name": "F5 -1.5 - Ace Covers",
+          "game": "Mets @ Phillies",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_009",
+          "edge_name": "Ohtani 40+ HR",
+          "game": "Mets @ Phillies",
+          "confidence": 85
+        },
+        {
+          "edge_id": "edge_010",
+          "edge_name": "Soto 95+ Walks",
+          "game": "Mets @ Phillies",
+          "confidence": 80
+        },
+        {
+          "edge_id": "edge_011",
+          "edge_name": "K Over - High K vs High K Team",
+          "game": "Mets @ Phillies",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_012",
+          "edge_name": "K Over - Tight Zone Umpire",
+          "game": "Mets @ Phillies",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_013",
+          "edge_name": "K Under - Contact Pitcher vs Contact Team",
+          "game": "Mets @ Phillies",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_014",
+          "edge_name": "K Under - Short Leash Starter",
+          "game": "Mets @ Phillies",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_015",
+          "edge_name": "IP Over - Stamina Ace",
+          "game": "Mets @ Phillies",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_016",
+          "edge_name": "IP Over - Lineup Extends Outing",
+          "game": "Mets @ Phillies",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_017",
+          "edge_name": "K Over - Early Line Value",
+          "game": "Mets @ Phillies",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_018",
+          "edge_name": "K Under - Bullpen Injuries",
+          "game": "Mets @ Phillies",
+          "confidence": 60
+        }
+      ],
+      "odds": 0.3,
+      "units": 1.37,
+      "edge_score": 68.7
+    },
+    {
+      "unit_id": "digger_mlb_004_20260403",
+      "legs": [
+        {
+          "edge_id": "edge_004",
+          "edge_name": "K Over - High K vs Weak",
+          "game": "Astros @ Rangers",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_005",
+          "edge_name": "F5 Dog ML - Value Dog",
+          "game": "Astros @ Rangers",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_006",
+          "edge_name": "F5 +1.5 - Fade Favorite",
+          "game": "Astros @ Rangers",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_007",
+          "edge_name": "K Under - Contact vs K",
+          "game": "Astros @ Rangers",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_008",
+          "edge_name": "F5 -1.5 - Ace Covers",
+          "game": "Astros @ Rangers",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_009",
+          "edge_name": "Ohtani 40+ HR",
+          "game": "Astros @ Rangers",
+          "confidence": 85
+        },
+        {
+          "edge_id": "edge_010",
+          "edge_name": "Soto 95+ Walks",
+          "game": "Astros @ Rangers",
+          "confidence": 80
+        },
+        {
+          "edge_id": "edge_011",
+          "edge_name": "K Over - High K vs High K Team",
+          "game": "Astros @ Rangers",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_012",
+          "edge_name": "K Over - Tight Zone Umpire",
+          "game": "Astros @ Rangers",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_013",
+          "edge_name": "K Under - Contact Pitcher vs Contact Team",
+          "game": "Astros @ Rangers",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_014",
+          "edge_name": "K Under - Short Leash Starter",
+          "game": "Astros @ Rangers",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_015",
+          "edge_name": "IP Over - Stamina Ace",
+          "game": "Astros @ Rangers",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_016",
+          "edge_name": "IP Over - Lineup Extends Outing",
+          "game": "Astros @ Rangers",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_017",
+          "edge_name": "K Over - Early Line Value",
+          "game": "Astros @ Rangers",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_018",
+          "edge_name": "K Under - Bullpen Injuries",
+          "game": "Astros @ Rangers",
+          "confidence": 60
+        }
+      ],
+      "odds": 0.3,
+      "units": 1.37,
+      "edge_score": 68.7
+    },
+    {
+      "unit_id": "digger_mlb_005_20260403",
+      "legs": [
+        {
+          "edge_id": "edge_001",
+          "edge_name": "F5 Under - Ace vs Weak",
+          "game": "Braves @ Marlins",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_004",
+          "edge_name": "K Over - High K vs Weak",
+          "game": "Braves @ Marlins",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_005",
+          "edge_name": "F5 Dog ML - Value Dog",
+          "game": "Braves @ Marlins",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_006",
+          "edge_name": "F5 +1.5 - Fade Favorite",
+          "game": "Braves @ Marlins",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_007",
+          "edge_name": "K Under - Contact vs K",
+          "game": "Braves @ Marlins",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_008",
+          "edge_name": "F5 -1.5 - Ace Covers",
+          "game": "Braves @ Marlins",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_009",
+          "edge_name": "Ohtani 40+ HR",
+          "game": "Braves @ Marlins",
+          "confidence": 85
+        },
+        {
+          "edge_id": "edge_010",
+          "edge_name": "Soto 95+ Walks",
+          "game": "Braves @ Marlins",
+          "confidence": 80
+        },
+        {
+          "edge_id": "edge_011",
+          "edge_name": "K Over - High K vs High K Team",
+          "game": "Braves @ Marlins",
+          "confidence": 75
+        },
+        {
+          "edge_id": "edge_012",
+          "edge_name": "K Over - Tight Zone Umpire",
+          "game": "Braves @ Marlins",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_013",
+          "edge_name": "K Under - Contact Pitcher vs Contact Team",
+          "game": "Braves @ Marlins",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_014",
+          "edge_name": "K Under - Short Leash Starter",
+          "game": "Braves @ Marlins",
+          "confidence": 60
+        },
+        {
+          "edge_id": "edge_015",
+          "edge_name": "IP Over - Stamina Ace",
+          "game": "Braves @ Marlins",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_016",
+          "edge_name": "IP Over - Lineup Extends Outing",
+          "game": "Braves @ Marlins",
+          "confidence": 65
+        },
+        {
+          "edge_id": "edge_017",
+          "edge_name": "K Over - Early Line Value",
+          "game": "Braves @ Marlins",
+          "confidence": 70
+        },
+        {
+          "edge_id": "edge_018",
+          "edge_name": "K Under - Bullpen Injuries",
+          "game": "Braves @ Marlins",
+          "confidence": 60
+        }
+      ],
+      "odds": 0.2,
+      "units": 1.38,
+      "edge_score": 69.1
+    }
+  ]
+}
