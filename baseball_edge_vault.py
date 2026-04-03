@@ -259,6 +259,142 @@ class EdgeVault:
             description="Soto 16% BB rate = 100+ walks. Take over."
         ))
 
+        # === PITCHER PROP EDGES (Strikeouts + Innings) ===
+
+        # K OVER - High K% pitcher vs high K% team
+        self.edges.append(Edge(
+            id="edge_011",
+            name="K Over - High K vs High K Team",
+            edge_type=EdgeType.STRIKEOUTS_OVER,
+            criteria={
+                "pitcher_k_pct_min": 30.0,  # High K pitcher
+                "opponent_k_pct_min": 25.0,  # High K team
+                "oswing_min": 35.0,  # Poor O-Swing%
+                "zcontact_min": 90.0,  # Low Z-Contact%
+                "game_total_max": 8.0,  # Low total
+                "ml_fav_min": -200,  # Heavy favorite
+            },
+            min_confidence=75,
+            min_odds=-150,
+            max_odds=-110,
+            description="High K% (30%+) vs high K% team (25%+), especially favorites in low totals"
+        ))
+
+        # K OVER - Favorable umpire + park
+        self.edges.append(Edge(
+            id="edge_012",
+            name="K Over - Tight Zone Umpire",
+            edge_type=EdgeType.STRIKEOUTS_OVER,
+            criteria={
+                "pitcher_k_pct_min": 28.0,
+                "umpire_zone": "tight",
+                "park_factor": "pitcher_friendly",
+            },
+            min_confidence=70,
+            min_odds=-140,
+            max_odds=-100,
+            description="Tight umpire zone = more K. Shop for half-K differences"
+        ))
+
+        # K UNDER - Contact pitcher vs low K team
+        self.edges.append(Edge(
+            id="edge_013",
+            name="K Under - Contact Pitcher vs Contact Team",
+            edge_type=EdgeType.STRIKEOUTS_UNDER,
+            criteria={
+                "pitcher_k_pct_max": 22.0,  # Contact pitcher
+                "opponent_k_pct_max": 20.0,  # Low K team
+                "pitcher_recent_under_pct": 70.0,  # Recent unders
+                "bullpen_depth": "weak",
+            },
+            min_confidence=65,
+            min_odds=-110,
+            max_odds=+120,
+            description="Contact pitcher (K% <22%) vs low K team (<20%) = K under"
+        ))
+
+        # K UNDER - Short leash starter
+        self.edges.append(Edge(
+            id="edge_014",
+            name="K Under - Short Leash Starter",
+            edge_type=EdgeType.STRIKEOUTS_UNDER,
+            criteria={
+                "pitcher_ip_avg_max": 4.5,  # 4-5 IP expected
+                "bullpen_usage": "high",
+                "pitcher_recent_under_pct": 70.0,
+            },
+            min_confidence=60,
+            min_odds=-120,
+            max_odds=+100,
+            description="Short leash starter = fewer IP = fewer K. Bet under"
+        ))
+
+        # IP OVER - Stamina ace vs weak offense
+        self.edges.append(Edge(
+            id="edge_015",
+            name="IP Over - Stamina Ace",
+            edge_type=EdgeType.PLAYER_PROP,
+            criteria={
+                "pitcher_recent_ip_avg_min": 85.0,  # 85+ pitches
+                "opponent_ops_max": 0.700,  # Weak offense
+                "bullpen_fatigue": True,
+                "pitcher_stamina_rank": "top_20",
+            },
+            min_confidence=70,
+            min_odds=-140,
+            max_odds=-100,
+            description="Stamina ace (85+ pitches) vs weak offense = IP over"
+        ))
+
+        # IP OVER - Lineup extends outing
+        self.edges.append(Edge(
+            id="edge_016",
+            name="IP Over - Lineup Extends Outing",
+            edge_type=EdgeType.PLAYER_PROP,
+            criteria={
+                "pitcher_recent_ip_avg_min": 80.0,
+                "opponent_contact_rate": "high",
+                "opponent_power": "low",
+                "game_total_min": 8.0,
+            },
+            min_confidence=65,
+            min_odds=-130,
+            max_odds=-100,
+            description="Weak power team = contact = more balls in play = more outs = IP over"
+        ))
+
+        # K OVER - Early line value
+        self.edges.append(Edge(
+            id="edge_017",
+            name="K Over - Early Line Value",
+            edge_type=EdgeType.STRIKEOUTS_OVER,
+            criteria={
+                "pitcher_k_pct_min": 28.0,
+                "line_movement": "down",
+                "public_percent_low": True,
+            },
+            min_confidence=70,
+            min_odds=-130,
+            max_odds=-100,
+            description="Line moving down = underdog = value. Fade public"
+        ))
+
+        # K UNDER - Bullpen limiting IP
+        self.edges.append(Edge(
+            id="edge_018",
+            name="K Under - Bullpen Injuries",
+            edge_type=EdgeType.STRIKEOUTS_UNDER,
+            criteria={
+                "bullpen_injuries": 3,
+                "pitcher_ip_avg_max": 5.0,
+                "opponent_k_pct_max": 22.0,
+            },
+            min_confidence=60,
+            min_odds=-110,
+            max_odds=+110,
+            description="Bullpen injuries = shorter starts = K under"
+        ))
+
     def get_edge(self, edge_id: str) -> Optional[Edge]:
         """Get edge by ID."""
         for e in self.edges:
