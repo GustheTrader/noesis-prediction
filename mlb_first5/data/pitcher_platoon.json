@@ -1,0 +1,944 @@
+{
+  "Hyun Jin Ryu": {
+    "platoon_adj": 350.0,
+    "mean_ra": 8.973,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Matthew Boyd": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Brandon Woodruff": {
+    "platoon_adj": 132.429,
+    "mean_ra": 6.958,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Aaron Nola": {
+    "platoon_adj": 302.317,
+    "mean_ra": 3.012,
+    "obs": 260,
+    "hand": "R"
+  },
+  "Madison Bumgarner": {
+    "platoon_adj": -400.0,
+    "mean_ra": 7.969,
+    "obs": 259,
+    "hand": "L"
+  },
+  "German Marquez": {
+    "platoon_adj": 99.612,
+    "mean_ra": 1.008,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Clayton Kershaw": {
+    "platoon_adj": 300.0,
+    "mean_ra": 1.012,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Brad Keller": {
+    "platoon_adj": 102.29,
+    "mean_ra": 1.014,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Kyle Gibson": {
+    "platoon_adj": 600.0,
+    "mean_ra": 0.046,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Chris Bassitt": {
+    "platoon_adj": 346.654,
+    "mean_ra": 3.33,
+    "obs": 772,
+    "hand": "R"
+  },
+  "Marco Gonzales": {
+    "platoon_adj": 193.22,
+    "mean_ra": 5.998,
+    "obs": 515,
+    "hand": "L"
+  },
+  "Kevin Gausman": {
+    "platoon_adj": 100.0,
+    "mean_ra": 2.985,
+    "obs": 260,
+    "hand": "R"
+  },
+  "Pablo Lopez": {
+    "platoon_adj": 6.03,
+    "mean_ra": 1.004,
+    "obs": 260,
+    "hand": "R"
+  },
+  "Antonio Senzatela": {
+    "platoon_adj": 401.55,
+    "mean_ra": 2.012,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Andrew Heaney": {
+    "platoon_adj": 600.0,
+    "mean_ra": 1.023,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Jesus Luzardo": {
+    "platoon_adj": -150.388,
+    "mean_ra": 2.004,
+    "obs": 259,
+    "hand": "L"
+  },
+  "Corey Kluber": {
+    "platoon_adj": 196.899,
+    "mean_ra": 0.039,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Ross Stripling": {
+    "platoon_adj": 5.258,
+    "mean_ra": 3.996,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Tanner Houck": {
+    "platoon_adj": -100.0,
+    "mean_ra": 2.996,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Zach Plesac": {
+    "platoon_adj": -200.0,
+    "mean_ra": 0.008,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Mike Minor": {
+    "platoon_adj": 5.0,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Kohei Arihara": {
+    "platoon_adj": 3.659,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Jake Arrieta": {
+    "platoon_adj": 1.351,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Tyler Anderson": {
+    "platoon_adj": 300.0,
+    "mean_ra": 1.5,
+    "obs": 514,
+    "hand": "L"
+  },
+  "Zack Wheeler": {
+    "platoon_adj": 400.0,
+    "mean_ra": 0.031,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Charlie Morton": {
+    "platoon_adj": 40.28,
+    "mean_ra": 3.0,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Cole Irvin": {
+    "platoon_adj": 83.333,
+    "mean_ra": 4.333,
+    "obs": 771,
+    "hand": "L"
+  },
+  "Lance McCullers Jr.": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Tyler Mahle": {
+    "platoon_adj": 1.145,
+    "mean_ra": 1.998,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Adam Wainwright": {
+    "platoon_adj": 400.0,
+    "mean_ra": 7.969,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Elieser Hernandez": {
+    "platoon_adj": 8.108,
+    "mean_ra": 6.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Rich Hill": {
+    "platoon_adj": -300.0,
+    "mean_ra": 4.5,
+    "obs": 514,
+    "hand": "L"
+  },
+  "Corbin Burnes": {
+    "platoon_adj": 116.667,
+    "mean_ra": 0.027,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Jose Berrios": {
+    "platoon_adj": 697.674,
+    "mean_ra": 0.05,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Jon Gray": {
+    "platoon_adj": 350.0,
+    "mean_ra": 0.027,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Walker Buehler": {
+    "platoon_adj": 3.748,
+    "mean_ra": 2.998,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Joe Musgrove": {
+    "platoon_adj": 0.641,
+    "mean_ra": 0.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Caleb Smith": {
+    "platoon_adj": 6.41,
+    "mean_ra": 5.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Alex Cobb": {
+    "platoon_adj": -100.0,
+    "mean_ra": 2.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Lance Lynn": {
+    "platoon_adj": 50.0,
+    "mean_ra": 1.992,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Chris Flexen": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Logan Webb": {
+    "platoon_adj": -49.741,
+    "mean_ra": 2.988,
+    "obs": 260,
+    "hand": "R"
+  },
+  "Zach Eflin": {
+    "platoon_adj": 50.291,
+    "mean_ra": 0.335,
+    "obs": 772,
+    "hand": "R"
+  },
+  "Ian Anderson": {
+    "platoon_adj": 500.0,
+    "mean_ra": 3.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Domingo German": {
+    "platoon_adj": 3.75,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "T.J. Zeuch": {
+    "platoon_adj": 1.316,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Garrett Richards": {
+    "platoon_adj": 12.821,
+    "mean_ra": 10.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Bruce Zimmermann": {
+    "platoon_adj": 2.439,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Tarik Skubal": {
+    "platoon_adj": -100.0,
+    "mean_ra": 3.002,
+    "obs": 515,
+    "hand": "L"
+  },
+  "Aaron Civale": {
+    "platoon_adj": 71.429,
+    "mean_ra": 2.667,
+    "obs": 771,
+    "hand": "R"
+  },
+  "Jeff Hoffman": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Carlos Martinez": {
+    "platoon_adj": 5.128,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Adrian Houser": {
+    "platoon_adj": 2.632,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Michael Pineda": {
+    "platoon_adj": 1.282,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Brady Singer": {
+    "platoon_adj": 7.5,
+    "mean_ra": 6.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Jordan Lyles": {
+    "platoon_adj": -34.12,
+    "mean_ra": 0.509,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Zach Davies": {
+    "platoon_adj": 100.0,
+    "mean_ra": 1.0,
+    "obs": 771,
+    "hand": "R"
+  },
+  "Mitch Keller": {
+    "platoon_adj": -182.175,
+    "mean_ra": 3.994,
+    "obs": 516,
+    "hand": "R"
+  },
+  "Austin Gomber": {
+    "platoon_adj": 0.0,
+    "mean_ra": 3.0,
+    "obs": 514,
+    "hand": "L"
+  },
+  "Julio Urias": {
+    "platoon_adj": 150.0,
+    "mean_ra": 3.497,
+    "obs": 515,
+    "hand": "L"
+  },
+  "Sean Manaea": {
+    "platoon_adj": -500.0,
+    "mean_ra": 4.981,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Jose Urquidy": {
+    "platoon_adj": -50.193,
+    "mean_ra": 1.503,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Chris Paddack": {
+    "platoon_adj": 3.846,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Taylor Widener": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Shohei Ohtani": {
+    "platoon_adj": -50.0,
+    "mean_ra": 2.981,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Dylan Cease": {
+    "platoon_adj": 93.029,
+    "mean_ra": 3.965,
+    "obs": 260,
+    "hand": "R"
+  },
+  "Tylor Megill": {
+    "platoon_adj": -99.806,
+    "mean_ra": 1.988,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Eduardo Rodriguez": {
+    "platoon_adj": -19.907,
+    "mean_ra": 1.008,
+    "obs": 259,
+    "hand": "L"
+  },
+  "Joe Ryan": {
+    "platoon_adj": -2.482,
+    "mean_ra": 1.002,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Robbie Ray": {
+    "platoon_adj": -250.155,
+    "mean_ra": 0.035,
+    "obs": 259,
+    "hand": "L"
+  },
+  "Max Scherzer": {
+    "platoon_adj": 150.0,
+    "mean_ra": 7.95,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Sonny Gray": {
+    "platoon_adj": -55.991,
+    "mean_ra": 0.015,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Logan Gilbert": {
+    "platoon_adj": 0.0,
+    "mean_ra": 1.0,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Miles Mikolas": {
+    "platoon_adj": 100.0,
+    "mean_ra": 2.012,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Justin Steele": {
+    "platoon_adj": 0.015,
+    "mean_ra": 0.012,
+    "obs": 259,
+    "hand": "L"
+  },
+  "Dane Dunning": {
+    "platoon_adj": 3.75,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Luis Severino": {
+    "platoon_adj": 50.0,
+    "mean_ra": 1.992,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Nick Pivetta": {
+    "platoon_adj": 2.632,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Carlos Rodon": {
+    "platoon_adj": 0.0,
+    "mean_ra": 1.0,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Joan Adon": {
+    "platoon_adj": 5.0,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Kyle Wright": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Vladimir Gutierrez": {
+    "platoon_adj": 2.564,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Tony Gonsolin": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Noah Syndergaard": {
+    "platoon_adj": 100.0,
+    "mean_ra": 0.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Justin Verlander": {
+    "platoon_adj": -33.333,
+    "mean_ra": 1.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Daulton Jefferies": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Tyler Wells": {
+    "platoon_adj": 5.405,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Michael Kopech": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Hunter Greene": {
+    "platoon_adj": -50.0,
+    "mean_ra": 3.0,
+    "obs": 259,
+    "hand": "R"
+  },
+  "Erick Fedde": {
+    "platoon_adj": 50.0,
+    "mean_ra": 1.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Carlos Carrasco": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Spencer Howard": {
+    "platoon_adj": 7.5,
+    "mean_ra": 6.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Kris Bubic": {
+    "platoon_adj": 18.056,
+    "mean_ra": 13.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Cal Quantrill": {
+    "platoon_adj": -75.0,
+    "mean_ra": 3.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Bailey Ober": {
+    "platoon_adj": 133.333,
+    "mean_ra": 6.0,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Steven Matz": {
+    "platoon_adj": 9.459,
+    "mean_ra": 7.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Bryse Wilson": {
+    "platoon_adj": 3.75,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Marcus Stroman": {
+    "platoon_adj": 2.559,
+    "mean_ra": 1.996,
+    "obs": 515,
+    "hand": "R"
+  },
+  "Freddy Peralta": {
+    "platoon_adj": 33.333,
+    "mean_ra": 2.996,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Anthony DeSclafani": {
+    "platoon_adj": 2.632,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Trevor Rogers": {
+    "platoon_adj": -100.0,
+    "mean_ra": 3.5,
+    "obs": 514,
+    "hand": "L"
+  },
+  "Jose Suarez": {
+    "platoon_adj": 2.632,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Jacob deGrom": {
+    "platoon_adj": -200.0,
+    "mean_ra": 0.023,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Nick Martinez": {
+    "platoon_adj": -300.0,
+    "mean_ra": 1.012,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Clarke Schmidt": {
+    "platoon_adj": 3.659,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Shintaro Fujinami": {
+    "platoon_adj": 13.095,
+    "mean_ra": 11.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Patrick Sandoval": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Chris Sale": {
+    "platoon_adj": 10.232,
+    "mean_ra": 7.981,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Dean Kremer": {
+    "platoon_adj": 0.0,
+    "mean_ra": 5.0,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Spencer Turnbull": {
+    "platoon_adj": 13.514,
+    "mean_ra": 10.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Edward Cabrera": {
+    "platoon_adj": 5.0,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Nick Lodolo": {
+    "platoon_adj": -0.0,
+    "mean_ra": 2.0,
+    "obs": 514,
+    "hand": "L"
+  },
+  "Michael Wacha": {
+    "platoon_adj": -50.0,
+    "mean_ra": 2.0,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Jose Urena": {
+    "platoon_adj": 6.41,
+    "mean_ra": 5.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Jeffrey Springs": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Joey Wentz": {
+    "platoon_adj": 1.351,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "MacKenzie Gore": {
+    "platoon_adj": 100.0,
+    "mean_ra": 0.996,
+    "obs": 258,
+    "hand": "L"
+  },
+  "Jared Shuster": {
+    "platoon_adj": 5.0,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Jhony Brito": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Kodai Senga": {
+    "platoon_adj": 1.316,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Graham Ashcraft": {
+    "platoon_adj": 1.351,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Vince Velasquez": {
+    "platoon_adj": 3.846,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Luis Garcia": {
+    "platoon_adj": 1.282,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Mike Clevinger": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Jordan Montgomery": {
+    "platoon_adj": 3.75,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Jameson Taillon": {
+    "platoon_adj": 3.861,
+    "mean_ra": 3.012,
+    "obs": 258,
+    "hand": "R"
+  },
+  "Eric Lauer": {
+    "platoon_adj": 2.439,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Ken Waldichuk": {
+    "platoon_adj": 7.143,
+    "mean_ra": 6.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Seth Lugo": {
+    "platoon_adj": -75.0,
+    "mean_ra": 1.5,
+    "obs": 514,
+    "hand": "R"
+  },
+  "Martin Perez": {
+    "platoon_adj": 1.316,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Bailey Falter": {
+    "platoon_adj": 50.0,
+    "mean_ra": 1.5,
+    "obs": 514,
+    "hand": "L"
+  },
+  "Jake Irvin": {
+    "platoon_adj": 2.632,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Zack Littell": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Valente Bellozo": {
+    "platoon_adj": 1.351,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Gavin Williams": {
+    "platoon_adj": 1.22,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Spencer Arrighetti": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Griffin Canning": {
+    "platoon_adj": 1.316,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Randy Vasquez": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Spencer Schwellenbach": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Brandon Pfaadt": {
+    "platoon_adj": 3.659,
+    "mean_ra": 3.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Shota Imanaga": {
+    "platoon_adj": 1.282,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Roki Sasaki": {
+    "platoon_adj": 2.5,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Reese Olson": {
+    "platoon_adj": 5.263,
+    "mean_ra": 4.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Bryce Miller": {
+    "platoon_adj": 2.5,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Osvaldo Bido": {
+    "platoon_adj": 1.351,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Mitchell Parker": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "L"
+  },
+  "Tomoyuki Sugano": {
+    "platoon_adj": 2.5,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Taj Bradley": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Ryan Feltner": {
+    "platoon_adj": 2.703,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Max Meyer": {
+    "platoon_adj": 2.703,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Davis Martin": {
+    "platoon_adj": 2.381,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Jack Kochanowicz": {
+    "platoon_adj": 2.564,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Tanner Bibee": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Andre Pallante": {
+    "platoon_adj": 2.632,
+    "mean_ra": 2.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Richard Fitts": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "Bryan Woo": {
+    "platoon_adj": 1.25,
+    "mean_ra": 1.0,
+    "obs": 257,
+    "hand": "R"
+  },
+  "JP Sears": {
+    "platoon_adj": 0.0,
+    "mean_ra": 0.0,
+    "obs": 257,
+    "hand": "L"
+  }
+}

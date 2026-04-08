@@ -1,0 +1,157 @@
+{
+  "history": [
+    {
+      "timestamp": "2026-04-07T22:31:12.636021",
+      "pitcher": "Gerrit Cole",
+      "predicted": 1.35,
+      "threshold": 1.5,
+      "action": "UNDER",
+      "actual": 1,
+      "correct": true,
+      "error": 0.5,
+      "params": {
+        "under_threshold": -1.5,
+        "over_threshold": 1.5,
+        "confidence_boost": 0.05,
+        "elite_era_threshold": 3.0,
+        "curiosity_weight": 0.3
+      }
+    },
+    {
+      "timestamp": "2026-04-07T22:31:12.636320",
+      "pitcher": "Shane Bieber",
+      "predicted": 1.32,
+      "threshold": 1.5,
+      "action": "UNDER",
+      "actual": 3,
+      "correct": false,
+      "error": 1.5,
+      "params": {
+        "under_threshold": -1.5,
+        "over_threshold": 1.5,
+        "confidence_boost": 0.05,
+        "elite_era_threshold": 3.0,
+        "curiosity_weight": 0.3
+      }
+    },
+    {
+      "timestamp": "2026-04-07T22:31:12.636580",
+      "pitcher": "Luis Castillo",
+      "predicted": 3.27,
+      "threshold": 3.5,
+      "action": "OVER",
+      "actual": 4,
+      "correct": true,
+      "error": 0.5,
+      "params": {
+        "under_threshold": -1.5,
+        "over_threshold": 1.5,
+        "confidence_boost": 0.05,
+        "elite_era_threshold": 3.0,
+        "curiosity_weight": 0.3
+      }
+    },
+    {
+      "timestamp": "2026-04-07T22:54:59.278691",
+      "pitcher": "Cole",
+      "predicted": 1.35,
+      "threshold": 1.05,
+      "action": "UNDER",
+      "actual": 1,
+      "correct": true,
+      "error": 0.050000000000000044,
+      "params": {
+        "under_threshold": -1.5,
+        "over_threshold": 1.5,
+        "confidence_boost": 0.05,
+        "elite_era_threshold": 3.0,
+        "curiosity_weight": 0.3
+      }
+    },
+    {
+      "timestamp": "2026-04-07T22:54:59.279135",
+      "pitcher": "Bieber",
+      "predicted": 1.32,
+      "threshold": 1.02,
+      "action": "UNDER",
+      "actual": 2,
+      "correct": false,
+      "error": 0.98,
+      "params": {
+        "under_threshold": -1.5,
+        "over_threshold": 1.5,
+        "confidence_boost": 0.05,
+        "elite_era_threshold": 3.0,
+        "curiosity_weight": 0.3
+      }
+    },
+    {
+      "timestamp": "2026-04-07T22:54:59.279771",
+      "pitcher": "Castillo",
+      "predicted": 3.27,
+      "threshold": 2.97,
+      "action": "OVER",
+      "actual": 4,
+      "correct": true,
+      "error": 1.0299999999999998,
+      "params": {
+        "under_threshold": -1.5,
+        "over_threshold": 1.6,
+        "confidence_boost": 0.060000000000000005,
+        "elite_era_threshold": 3.0,
+        "curiosity_weight": 0.3
+      }
+    }
+  ],
+  "params": {
+    "under_threshold": -1.5,
+    "over_threshold": 1.7000000000000002,
+    "confidence_boost": 0.07,
+    "elite_era_threshold": 3.0,
+    "curiosity_weight": 0.3
+  },
+  "pitcher_records": {
+    "Gerrit Cole": {
+      "total": 1,
+      "correct": 1,
+      "under_correct": 1,
+      "over_correct": 0,
+      "flat_correct": 0
+    },
+    "Shane Bieber": {
+      "total": 1,
+      "correct": 0,
+      "under_correct": 0,
+      "over_correct": 0,
+      "flat_correct": 0
+    },
+    "Luis Castillo": {
+      "total": 1,
+      "correct": 1,
+      "under_correct": 0,
+      "over_correct": 1,
+      "flat_correct": 0
+    },
+    "Cole": {
+      "total": 1,
+      "correct": 1,
+      "under_correct": 1,
+      "over_correct": 0,
+      "flat_correct": 0
+    },
+    "Bieber": {
+      "total": 1,
+      "correct": 0,
+      "under_correct": 0,
+      "over_correct": 0,
+      "flat_correct": 0
+    },
+    "Castillo": {
+      "total": 1,
+      "correct": 1,
+      "under_correct": 0,
+      "over_correct": 1,
+      "flat_correct": 0
+    }
+  }
+}
