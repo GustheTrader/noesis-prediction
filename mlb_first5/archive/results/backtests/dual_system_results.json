@@ -1,0 +1,47 @@
+{
+  "dual_system": {
+    "total_bets": 5420,
+    "total_wins": 5411,
+    "total_pnl": 1400802,
+    "roi": 90.4764734377523,
+    "tiers": {
+      "tier1_max_conviction": {
+        "bets": 2061,
+        "wins": 2059,
+        "losses": 2,
+        "win_rate": 99.90295972828724,
+        "pnl": 933786,
+        "stake_mult": 2.0,
+        "avg_stake": 500.0
+      },
+      "tier2_base": {
+        "bets": 2576,
+        "wins": 2575,
+        "losses": 1,
+        "win_rate": 99.9611801242236,
+        "pnl": 292137,
+        "stake_mult": 0.5,
+        "avg_stake": 125.0
+      },
+      "tier3_secondary": {
+        "bets": 783,
+        "wins": 777,
+        "losses": 6,
+        "win_rate": 99.23371647509579,
+        "pnl": 174879,
+        "stake_mult": 1.0,
+        "avg_stake": 250.0
+      }
+    }
+  },
+  "single_systems": {
+    "14_game": {
+      "bets": 4637,
+      "pnl": 1051168
+    },
+    "21_game": {
+      "bets": 2844,
+      "pnl": 641772
+    }
+  }
+}

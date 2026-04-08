@@ -1,0 +1,20 @@
+[
+  {"date": "2026-04-08", "time": "16:35", "game": "SD @ PIT", "side": "HOME", "pitcher": "Paul Skenes", "hand": "RHP", "era": 1.97, "pred": 0.64, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "17:10", "game": "KC @ CLE", "side": "HOME", "pitcher": "Tanner Bibee", "hand": "RHP", "era": 4.25, "pred": 0.69, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "18:35", "game": "SEA @ TEX", "side": "AWAY", "pitcher": "Luis Castillo", "hand": "RHP", "era": 3.55, "pred": 1.12, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "18:35", "game": "SEA @ TEX", "side": "HOME", "pitcher": "Nathan Eovaldi", "hand": "RHP", "era": 1.73, "pred": 0.55, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "19:07", "game": "LAD @ TOR", "side": "AWAY", "pitcher": "Tyler Glasnow", "hand": "RHP", "era": 2.66, "pred": 0.72, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "19:10", "game": "HOU @ COL", "side": "HOME", "pitcher": "Kyle Freeland", "hand": "LHP", "era": 4.99, "pred": 1.39, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "19:45", "game": "PHI @ SF", "side": "AWAY", "pitcher": "Zack Wheeler", "hand": "RHP", "era": 2.71, "pred": 0.76, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "20:07", "game": "ATL @ LAA", "side": "HOME", "pitcher": "Tyler Anderson", "hand": "LHP", "era": 5.43, "pred": 1.27, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "22:40", "game": "CHC @ TB", "side": "HOME", "pitcher": "Zack Littell", "hand": "RHP", "era": 3.82, "pred": 1.08, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "23:05", "game": "ATH @ NYY", "side": "AWAY", "pitcher": "Luis Severino", "hand": "RHP", "era": 4.55, "pred": 1.33, "tier": "TIER 1", "stake": 375},
+  {"date": "2026-04-08", "time": "17:35", "game": "MIL @ BOS", "side": "AWAY", "pitcher": "Freddy Peralta", "hand": "RHP", "era": 2.71, "pred": 1.59, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "17:35", "game": "MIL @ BOS", "side": "HOME", "pitcher": "Tanner Houck", "hand": "RHP", "era": 8.12, "pred": 1.80, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "19:07", "game": "LAD @ TOR", "side": "HOME", "pitcher": "Kevin Gausman", "hand": "RHP", "era": 3.59, "pred": 1.56, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "19:10", "game": "HOU @ COL", "side": "AWAY", "pitcher": "Framber Valdez", "hand": "LHP", "era": 3.66, "pred": 2.41, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "20:05", "game": "STL @ WSH", "side": "HOME", "pitcher": "MacKenzie Gore", "hand": "LHP", "era": 4.18, "pred": 2.28, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "20:10", "game": "ARI @ NYM", "side": "HOME", "pitcher": "Jose Quintana", "hand": "RHP", "era": 4.00, "pred": 1.90, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "23:05", "game": "ATH @ NYY", "side": "HOME", "pitcher": "Carlos Rodon", "hand": "LHP", "era": 3.09, "pred": 1.76, "tier": "TIER 2", "stake": 250},
+  {"date": "2026-04-08", "time": "23:40", "game": "DET @ MIN", "side": "HOME", "pitcher": "Pablo Lopez", "hand": "RHP", "era": 2.75, "pred": 2.42, "tier": "TIER 2", "stake": 250}
+]

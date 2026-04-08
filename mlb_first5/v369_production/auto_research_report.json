@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-08T18:42:01.630339",
+  "available_endpoints": 4,
+  "feature_opportunities": 6,
+  "high_priority_features": [
+    "team_bullpen_era",
+    "pitcher_velocity_trend",
+    "lineup_strength_vs_hand"
+  ],
+  "hypotheses_tested": 3,
+  "hypotheses_pending": 3,
+  "next_actions": [
+    "Scrape platoon split data from Baseball-Reference",
+    "Build velocity trend calculator",
+    "Test lineup_strength_vs_hand feature on 2025 data",
+    "Validate with 100-game holdout test"
+  ],
+  "estimated_timeline": {
+    "feature_engineering": "3-5 days",
+    "model_retraining": "1-2 days",
+    "validation": "2-3 days",
+    "deployment": "1 day",
+    "total": "1-2 weeks for v370"
+  }
+}

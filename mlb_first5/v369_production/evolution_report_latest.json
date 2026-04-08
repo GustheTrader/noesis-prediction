@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-04-08T18:42:00.141047",
+  "version": "v369",
+  "analysis_period": "2026-03-26 to 2026-04-07",
+  "summary": {
+    "total_games": 330,
+    "wins": 206,
+    "losses": 124,
+    "win_rate": 62.42424242424243
+  },
+  "loss_analysis": {
+    "tier_1_losses": 0,
+    "blowout_losses": 56,
+    "close_losses": 0
+  },
+  "improvement_opportunities": [
+    {
+      "type": "Feature_Gap",
+      "issue": "Missing blowout indicator",
+      "count": 56,
+      "avg_actual": 6.46,
+      "action": "Add weather/wind features for high-scoring conditions",
+      "potential_impact": "Filter 56 high-risk games"
+    }
+  ],
+  "research_queue": [
+    {
+      "idea": "Bullpen fatigue indicator",
+      "hypothesis": "Tired bullpens lead to earlier starter pulls and more runs",
+      "data_source": "ESPN team rosters / pitcher usage",
+      "feature_name": "bullpen_ip_last_3_days",
+      "expected_improvement": "+2-3% win rate"
+    },
+    {
+      "idea": "Umpire strike zone tightness",
+      "hypothesis": "Umpires with small zones favor hitters",
+      "data_source": "Baseball Savant umpire data",
+      "feature_name": "umpire_zone_size",
+      "expected_improvement": "+1-2% win rate"
+    },
+    {
+      "idea": "Travel fatigue",
+      "hypothesis": "Teams on long road trips underperform",
+      "data_source": "ESPN schedule data",
+      "feature_name": "days_on_road",
+      "expected_improvement": "+1-2% win rate"
+    }
+  ],
+  "recommended_actions": [
+    "Increase Tier 1 threshold from 1.5 to 1.3",
+    "Add bullpen fatigue feature",
+    "Implement weekly model retraining",
+    "A/B test new features on 10% of bets"
+  ]
+}

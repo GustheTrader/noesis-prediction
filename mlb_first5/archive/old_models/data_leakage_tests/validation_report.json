@@ -1,0 +1,14 @@
+{
+  "validation_date": "2026-04-08 17:13:00.282687",
+  "dataset_size": 50564,
+  "temporal_integrity": "PASS",
+  "heat_check_leakage": "FAIL",
+  "train_test_separation": "PASS",
+  "cv_mae_mean": 0.40870725469041175,
+  "cv_mae_std": 0.1688828267566226,
+  "test_mae_2025": 0.36790163546314647,
+  "verdict": "FAIL",
+  "issues": [
+    "Possible heat check leakage"
+  ]
+}

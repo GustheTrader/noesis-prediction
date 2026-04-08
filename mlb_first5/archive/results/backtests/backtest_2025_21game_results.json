@@ -1,0 +1,15 @@
+{
+  "model": "21_game_heat",
+  "mae": 0.9613351742986591,
+  "total_bets": 2844,
+  "wins": 2836,
+  "losses": 8,
+  "win_rate": 99.71870604781998,
+  "pnl": 641772,
+  "comparison_14game": {
+    "mae": 0.368,
+    "total_bets": 4637,
+    "wins": 4634,
+    "losses": 3
+  }
+}

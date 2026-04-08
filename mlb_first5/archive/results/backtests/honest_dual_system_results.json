@@ -1,0 +1,53 @@
+{
+  "model": "honest_dual_system",
+  "mae": 1.8592042858501676,
+  "total_bets": 6713,
+  "total_wins": 5417,
+  "win_rate": 80.69417548041115,
+  "total_pnl": 868031,
+  "roi": 47.16598519323508,
+  "tiers": {
+    "tier1_high": {
+      "bets": 1297,
+      "wins": 522,
+      "losses": 775,
+      "win_rate": 40.24672320740169,
+      "pnl": -112884,
+      "stake_mult": 1.5,
+      "avg_stake": 375.0
+    },
+    "tier2_medium": {
+      "bets": 5416,
+      "wins": 4895,
+      "losses": 521,
+      "win_rate": 90.38035450516986,
+      "pnl": 980915,
+      "stake_mult": 1.0,
+      "avg_stake": 250.0
+    }
+  },
+  "feature_importance": {
+    "feature": {
+      "4": "pitcher_ip",
+      "0": "pitcher_era",
+      "6": "pitcher_hr_pct",
+      "3": "pitcher_bb9",
+      "2": "pitcher_k9",
+      "1": "pitcher_whip",
+      "5": "pitcher_k_pct",
+      "7": "is_lhp",
+      "8": "pitcher_days_rest"
+    },
+    "importance": {
+      "4": 0.18275692910133468,
+      "0": 0.1796290392789737,
+      "6": 0.16245746820609056,
+      "3": 0.13257893265475096,
+      "2": 0.11313428235313623,
+      "1": 0.1044229596277762,
+      "5": 0.07982527821775902,
+      "7": 0.04519511056017868,
+      "8": 0.0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+time,time_slot,game,bet_on,side,pitcher,opponent,pred_runs,tier,stake,bet,odds,status,state
+10:35 AM,MORNING,MIL @ BOS,BOS,home,Sonny Gray,MIL,1.45,TIER 1,375,MIL Team Total UNDER 2.5 (First 5),-120,In Progress,in
+11:10 AM,MORNING,BAL @ CHW,CHW,home,Sean Burke,BAL,1.57,TIER 2,250,BAL Team Total UNDER 2.5 (First 5),-120,In Progress,in
+11:35 AM,MORNING,SEA @ TEX,SEA,away,Bryan Woo,TEX,0.62,ELITE,500,TEX Team Total UNDER 2.5 (First 5),-120,In Progress,in
+11:35 AM,MORNING,SEA @ TEX,TEX,home,MacKenzie Gore,SEA,0.9,ELITE,500,SEA Team Total UNDER 2.5 (First 5),-120,In Progress,in
+12:45 PM,AFTERNOON,PHI @ SF,PHI,away,Aaron Nola,SF,1.42,TIER 1,375,SF Team Total UNDER 2.5 (First 5),-120,Scheduled,pre
+12:45 PM,AFTERNOON,PHI @ SF,SF,home,Tyler Mahle,PHI,1.98,TIER 2,250,PHI Team Total UNDER 2.5 (First 5),-120,Scheduled,pre
+01:05 PM,AFTERNOON,STL @ WSH,WSH,home,Miles Mikolas,STL,1.86,TIER 2,250,STL Team Total UNDER 2.5 (First 5),-120,Scheduled,pre
+04:05 PM,EVENING,ATH @ NYY,ATH,away,Luis Severino,NYY,1.92,TIER 2,250,NYY Team Total UNDER 2.5 (First 5),-120,Scheduled,pre
+04:40 PM,EVENING,DET @ MIN,DET,away,Framber Valdez,MIN,0.93,ELITE,500,MIN Team Total UNDER 2.5 (First 5),-120,Scheduled,pre

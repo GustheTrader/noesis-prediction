@@ -1,0 +1,17 @@
+{
+  "bet_type": "Team Total UNDER 2.5 (First 5)",
+  "season": 2023,
+  "threshold": 1.0,
+  "account_start": 10000,
+  "account_end": 179068.18181818177,
+  "profit": 169068.18181818177,
+  "roi": 52.34309034618631,
+  "bets": 1292,
+  "wins": 1031,
+  "losses": 261,
+  "win_rate": 0.7979876160990712,
+  "max_drawdown": 6818.181818181818,
+  "max_drawdown_pct": 67.56756756756754,
+  "max_consecutive_losses": 5,
+  "edge": 0.27417809228954737
+}

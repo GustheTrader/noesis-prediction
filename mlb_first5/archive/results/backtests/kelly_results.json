@@ -1,0 +1,508 @@
+{
+  "account_start": 5000,
+  "account_end": 445.386277441512,
+  "total_bets": 55,
+  "wins": 25,
+  "losses": 30,
+  "win_rate": 0.45454545454545453,
+  "net_profit": -4554.613722558488,
+  "roi": -9.44921371438958,
+  "kelly_fraction": 0.66,
+  "bet_history": [
+    {
+      "date": "2023-03-30",
+      "pitcher": "Max Fried",
+      "predicted": 0.98,
+      "prob": 0.907207046882843,
+      "bet": 1000.0,
+      "result": "WIN",
+      "account": 5909.090909090909
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Dylan Cease",
+      "predicted": 2.09,
+      "prob": 0.6490805242445734,
+      "bet": 1025.9694935630564,
+      "result": "WIN",
+      "account": 6841.790448693688
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Framber Valdez",
+      "predicted": 1.17,
+      "prob": 0.8802711097107355,
+      "bet": 1368.3580897387376,
+      "result": "WIN",
+      "account": 8085.752348456176
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Mitch Keller",
+      "predicted": 2.05,
+      "prob": 0.6626218371700825,
+      "bet": 1555.649156407184,
+      "result": "LOSS",
+      "account": 6530.103192048992
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Sandy Alcantara",
+      "predicted": 2.01,
+      "prob": 0.6759015277259408,
+      "bet": 1306.0206384097985,
+      "result": "WIN",
+      "account": 7717.3946815124455
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Pablo Lopez",
+      "predicted": 1.74,
+      "prob": 0.7576796390037049,
+      "bet": 1543.4789363024893,
+      "result": "WIN",
+      "account": 9120.557350878345
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Aaron Nola",
+      "predicted": 2.04,
+      "prob": 0.6659669267518202,
+      "bet": 1797.024878492571,
+      "result": "LOSS",
+      "account": 7323.532472385775
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Zack Greinke",
+      "predicted": 2.21,
+      "prob": 0.6070669880717037,
+      "bet": 845.0978979263054,
+      "result": "WIN",
+      "account": 8091.803288682416
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Eduardo Rodriguez",
+      "predicted": 1.24,
+      "prob": 0.8687555305614768,
+      "bet": 1618.3606577364833,
+      "result": "WIN",
+      "account": 9563.040250261038
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Corbin Burnes",
+      "predicted": 2.03,
+      "prob": 0.6692954027774461,
+      "bet": 1912.6080500522075,
+      "result": "LOSS",
+      "account": 7650.43220020883
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Marcus Stroman",
+      "predicted": 2.05,
+      "prob": 0.6626218371700825,
+      "bet": 1471.8962299998677,
+      "result": "WIN",
+      "account": 8988.519682026892
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Logan Webb",
+      "predicted": 1.5,
+      "prob": 0.8175744761936437,
+      "bet": 1797.7039364053785,
+      "result": "LOSS",
+      "account": 7190.815745621514
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Gerrit Cole",
+      "predicted": 1.76,
+      "prob": 0.7521291114395701,
+      "bet": 1438.163149124303,
+      "result": "WIN",
+      "account": 8498.23679027997
+    },
+    {
+      "date": "2023-03-30",
+      "pitcher": "Jacob deGrom",
+      "predicted": 1.36,
+      "prob": 0.8468362842349139,
+      "bet": 1699.6473580559941,
+      "result": "LOSS",
+      "account": 6798.5894322239765
+    },
+    {
+      "date": "2023-03-31",
+      "pitcher": "Shane Bieber",
+      "predicted": 2.11,
+      "prob": 0.6422170929574377,
+      "bet": 1115.7361653498108,
+      "result": "WIN",
+      "account": 7812.895037087441
+    },
+    {
+      "date": "2023-03-31",
+      "pitcher": "Jesus Luzardo",
+      "predicted": 1.69,
+      "prob": 0.7711824455558168,
+      "bet": 1562.5790074174884,
+      "result": "WIN",
+      "account": 9233.421407466976
+    },
+    {
+      "date": "2023-03-31",
+      "pitcher": "Luis Castillo",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 1846.6842814933952,
+      "result": "WIN",
+      "account": 10912.225299733698
+    },
+    {
+      "date": "2023-03-31",
+      "pitcher": "Zac Gallen",
+      "predicted": 1.48,
+      "prob": 0.8220063142137535,
+      "bet": 2182.4450599467395,
+      "result": "LOSS",
+      "account": 8729.780239786958
+    },
+    {
+      "date": "2023-03-31",
+      "pitcher": "German Marquez",
+      "predicted": 2.15,
+      "prob": 0.6283161882953663,
+      "bet": 1264.475817372611,
+      "result": "WIN",
+      "account": 9879.303710125696
+    },
+    {
+      "date": "2023-03-31",
+      "pitcher": "Blake Snell",
+      "predicted": 1.7,
+      "prob": 0.7685247834990178,
+      "bet": 1975.8607420251392,
+      "result": "LOSS",
+      "account": 7903.442968100557
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 1580.6885936201115,
+      "result": "LOSS",
+      "account": 6322.754374480445
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 1264.5508748960892,
+      "result": "WIN",
+      "account": 7472.346078931436
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 1367.8399840541151,
+      "result": "LOSS",
+      "account": 6104.506094877321
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 1117.45192624554,
+      "result": "LOSS",
+      "account": 4987.054168631781
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 997.4108337263563,
+      "result": "WIN",
+      "account": 5893.791290201196
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 1178.7582580402393,
+      "result": "LOSS",
+      "account": 4715.033032160956
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 943.0066064321913,
+      "result": "LOSS",
+      "account": 3772.026425728765
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 754.405285145753,
+      "result": "WIN",
+      "account": 4457.849412224904
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 816.0254630237006,
+      "result": "LOSS",
+      "account": 3641.8239492012035
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 666.6490497072408,
+      "result": "LOSS",
+      "account": 2975.1748994939626
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 595.0349798987926,
+      "result": "WIN",
+      "account": 3516.1157903110466
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 703.2231580622093,
+      "result": "LOSS",
+      "account": 2812.8926322488373
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 514.9101731368687,
+      "result": "LOSS",
+      "account": 2297.9824591119686
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 459.5964918223938,
+      "result": "WIN",
+      "account": 2715.7974516777813
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 543.1594903355563,
+      "result": "LOSS",
+      "account": 2172.637961342225
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 434.527592268445,
+      "result": "WIN",
+      "account": 2567.6630452226295
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 470.02001001215785,
+      "result": "LOSS",
+      "account": 2097.6430352104717
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 419.52860704209434,
+      "result": "LOSS",
+      "account": 1678.1144281683773
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 335.6228856336755,
+      "result": "LOSS",
+      "account": 1342.491542534702
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 268.4983085069404,
+      "result": "WIN",
+      "account": 1586.5809139046478
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 290.4293764035939,
+      "result": "LOSS",
+      "account": 1296.151537501054
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 259.2303075002108,
+      "result": "LOSS",
+      "account": 1036.9212300008433
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 207.38424600016867,
+      "result": "WIN",
+      "account": 1225.4523627282692
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 224.32348857870585,
+      "result": "LOSS",
+      "account": 1001.1288741495634
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 183.26026241127718,
+      "result": "LOSS",
+      "account": 817.8686117382863
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 149.7138083570184,
+      "result": "LOSS",
+      "account": 668.1548033812679
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 133.63096067625358,
+      "result": "WIN",
+      "account": 789.6374949051349
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 144.54600028295633,
+      "result": "LOSS",
+      "account": 645.0914946221785
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 129.0182989244357,
+      "result": "LOSS",
+      "account": 516.0731956977428
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 103.21463913954857,
+      "result": "WIN",
+      "account": 609.9046858246052
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 121.98093716492104,
+      "result": "WIN",
+      "account": 720.7964468836243
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 144.15928937672487,
+      "result": "LOSS",
+      "account": 576.6371575068995
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Sonny Gray",
+      "predicted": 1.25,
+      "prob": 0.8670357598021706,
+      "bet": 115.3274315013799,
+      "result": "WIN",
+      "account": 681.4802770536085
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Edward Cabrera",
+      "predicted": 2.07,
+      "prob": 0.6558828412078138,
+      "bet": 124.74743025171853,
+      "result": "LOSS",
+      "account": 556.73284680189
+    },
+    {
+      "date": "2023-04-01",
+      "pitcher": "Alex Cobb",
+      "predicted": 1.85,
+      "prob": 0.7261149812607791,
+      "bet": 111.346569360378,
+      "result": "LOSS",
+      "account": 445.386277441512
+    }
+  ]
+}

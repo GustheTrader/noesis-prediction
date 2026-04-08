@@ -1,0 +1,41 @@
+{
+  "model": "enhanced_honest",
+  "mae": 1.6546791822994609,
+  "features": [
+    "pitcher_era",
+    "pitcher_whip",
+    "pitcher_k9",
+    "pitcher_bb9",
+    "pitcher_ip",
+    "pitcher_k_pct",
+    "pitcher_hr_pct",
+    "is_lhp",
+    "pitcher_days_rest",
+    "lhp_x_era",
+    "lhp_x_ip",
+    "lhp_x_k9",
+    "lhp_x_bb9",
+    "lhp_x_hr_pct"
+  ],
+  "handedness_importance": 0.21930575214053413,
+  "tier1": {
+    "bets": 3098,
+    "wins": 2322,
+    "losses": 776,
+    "win_rate": 74.95158166559071,
+    "pnl": 499641,
+    "stake_mult": 1.5,
+    "avg_stake": 375.0
+  },
+  "tier2": {
+    "bets": 4902,
+    "wins": 4123,
+    "losses": 779,
+    "win_rate": 84.10852713178295,
+    "pnl": 741171,
+    "stake_mult": 1.0,
+    "avg_stake": 250.0
+  },
+  "total_pnl": 1240812,
+  "roi": 51.97662582469369
+}

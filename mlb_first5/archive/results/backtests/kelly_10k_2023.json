@@ -1,0 +1,16 @@
+{
+  "season": 2023,
+  "threshold": 2.0,
+  "account_start": 10000,
+  "account_end": 143.7863970856519,
+  "profit": -9856.213602914348,
+  "bets": 204,
+  "wins": 106,
+  "losses": 98,
+  "win_rate": 0.5196078431372549,
+  "expected_wr": 0.739,
+  "max_drawdown": 22882.609394898012,
+  "max_drawdown_pct": 99.37555838792753,
+  "max_consecutive_losses": 4,
+  "kelly_fraction": 0.5
+}

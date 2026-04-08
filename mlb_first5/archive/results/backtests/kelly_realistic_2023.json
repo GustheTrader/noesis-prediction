@@ -1,0 +1,29 @@
+{
+  "season": 2023,
+  "account_start": 10000,
+  "account_end": 11363.636363636364,
+  "peak": 11363.636363636364,
+  "profit": 1363.636363636364,
+  "roi": 90.90909090909093,
+  "bets": 1,
+  "wins": 1,
+  "losses": 0,
+  "win_rate": 1.0,
+  "expected_win_rate": 0.798,
+  "max_drawdown": 0,
+  "max_drawdown_pct": 0,
+  "max_consecutive_losses": 0,
+  "loss_streaks": [],
+  "kelly_fraction": 0.5,
+  "history": [
+    {
+      "bet": 1,
+      "date": "2023-03-30",
+      "bet_size": 1500.0,
+      "account": 11363.64,
+      "drawdown": 0.0,
+      "consec_losses": 0,
+      "result": "WIN"
+    }
+  ]
+}

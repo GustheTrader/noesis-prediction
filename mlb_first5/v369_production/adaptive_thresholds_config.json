@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-04-08T18:42:00.291874",
+  "version": "v369",
+  "current_thresholds": {
+    "tier_1_max": 1.5,
+    "tier_2_max": 2.5
+  },
+  "optimized_thresholds": {
+    "tier_1_max": 1.5,
+    "tier_2_max": 2.5
+  },
+  "performance": {
+    "current_pnl": 4574,
+    "optimized_pnl": 4574,
+    "improvement": 0
+  },
+  "rl_decision": "KEEP",
+  "sample_size": 100,
+  "confidence": 1.0
+}
