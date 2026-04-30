@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "generated_from": "bayesian_tier_analysis.py",
+    "based_on": "2026_walk_forward_139bets",
+    "prior": {
+      "alpha": 55.50000000000001,
+      "beta": 44.49999999999999,
+      "base_rate": 0.555,
+      "strength": 100
+    },
+    "method": "empirical_bayes_beta_binomial",
+    "date": "2026-04-30",
+    "odds": "-120 (profit_multiplier=0.833)",
+    "note": "Replaces ideal_buckets with real-world posterior estimates accounting for small samples and survivorship bias"
+  },
+  "realistic_buckets": [
+    {
+      "name": "ULTRA_ELITE",
+      "range": "0.0-0.8",
+      "stake": 1000,
+      "win_rate": 0.5848,
+      "win_rate_ci_95_low": 0.494,
+      "win_rate_ci_95_high": 0.6757,
+      "bets_observed_2026": 12,
+      "shrinkage_factor": 0.893,
+      "roi_estimated_pct": 7.19,
+      "kelly_fraction": 0.0864,
+      "note": "Bayesian posterior (prior strength=100, base=55.5%)"
+    },
+    {
+      "name": "ELITE_PLUS",
+      "range": "0.8-1.2",
+      "stake": 750,
+      "win_rate": 0.5637,
+      "win_rate_ci_95_low": 0.468,
+      "win_rate_ci_95_high": 0.6595,
+      "bets_observed_2026": 2,
+      "shrinkage_factor": 0.98,
+      "roi_estimated_pct": 3.33,
+      "kelly_fraction": 0.0399,
+      "note": "Bayesian posterior (prior strength=100, base=55.5%)"
+    },
+    {
+      "name": "ELITE",
+      "range": "1.2-1.6",
+      "stake": 500,
+      "win_rate": 0.5748,
+      "win_rate_ci_95_low": 0.4952,
+      "win_rate_ci_95_high": 0.6545,
+      "bets_observed_2026": 47,
+      "shrinkage_factor": 0.68,
+      "roi_estimated_pct": 5.36,
+      "kelly_fraction": 0.0644,
+      "note": "Bayesian posterior (prior strength=100, base=55.5%)"
+    },
+    {
+      "name": "STRONG",
+      "range": "1.6-2.0",
+      "stake": 350,
+      "win_rate": 0.555,
+      "win_rate_ci_95_low": null,
+      "win_rate_ci_95_high": null,
+      "bets_observed_2026": 0,
+      "shrinkage_factor": 1.0,
+      "roi_estimated_pct": 1.73,
+      "kelly_fraction": 0.0208,
+      "note": "Bayesian posterior (prior strength=100, base=55.5%) \u2014 no data, using prior"
+    },
+    {
+      "name": "MODERATE",
+      "range": "2.0-2.5",
+      "stake": 200,
+      "win_rate": 0.5983,
+      "win_rate_ci_95_low": 0.5265,
+      "win_rate_ci_95_high": 0.6701,
+      "bets_observed_2026": 78,
+      "shrinkage_factor": 0.562,
+      "roi_estimated_pct": 9.67,
+      "kelly_fraction": 0.1161,
+      "note": "Bayesian posterior (prior strength=100, base=55.5%)"
+    },
+    {
+      "name": "TIER_2",
+      "range": "2.5-3.0",
+      "stake": 0,
+      "win_rate": 0.555,
+      "win_rate_ci_95_low": null,
+      "win_rate_ci_95_high": null,
+      "bets_observed_2026": 0,
+      "shrinkage_factor": 1.0,
+      "roi_estimated_pct": 1.73,
+      "kelly_fraction": 0.0208,
+      "note": "Bayesian posterior (prior strength=100, base=55.5%) \u2014 no data, using prior"
+    },
+    {
+      "name": "NO_BET",
+      "range": "3.0+",
+      "stake": 0,
+      "win_rate": null,
+      "roi": null,
+      "kelly": 0.0,
+      "note": "No bet \u2014 predicted F5 runs too high"
+    }
+  ]
+}
