@@ -8,3 +8,6 @@ cryptography>=41.0.0
 
 # Optional — for local LLM
 # ollama (installed separately)
+
+# Optional — live graph for data_agent (python -m data_agent)
+# neo4j>=5.0
